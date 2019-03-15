@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirtimeDelivery</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="login-dark mb-5">
+        <nav class="navbar navbar-light navbar-expand-md">
+            <div class="container-fluid"><a class="navbar-brand" href="#"><img src="assets/img/LogoSmall.png" class="img-fluid"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">API doc</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">About us</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact us</a></li>
+                    </ul>
+            </div>
+    </div>
+    </nav>
+    <div class="row">
+        <div id="darken" class="col-md-4 offset-md-8 pt-4">
+            <form method="post">
+                <h2 class="sr-only">Login Form</h2>
+                <div class="illustration"><i class="icon ion-ios-contact-outline"></i><a href="#" class="forgot text-white" data-toggle="modal" data-target="#modal1">Don't have an account? Sign up</a></div>
+                <div class="form-group" name="User_name" placeholder="User Name" type="text"><input class="form-control" type="email" name="User_name" placeholder="User Name"></div>
+                <div class="form-group" name="User_name" placeholder="User Name" type="text"><input class="form-control" type="email" name="Repassword" placeholder="Password"></div>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background:#2980EF;">Sign in</button></div><a href="#" class="forgot">Forgotten your password?</a></form>
+        </div>
+    </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="font-weight:300;color:#2980EF;">Create an account</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body" id="modalBody">
+                    <form method="post">
+                        <div class="form-group"><input class="form-control" type="text" name="Full_Name" placeholder="Full Name"></div>
+                        <div class="form-group"><input class="form-control" type="text" name="Username" placeholder="User Name"></div>
+                        <div class="form-group"><input class="form-control" type="password" name="password2" placeholder="Password"></div>
+                        <div class="form-group"><input class="form-control" type="password" name="Repassword2" placeholder="Re-type Password"></div>
+                        <div class="form-group"><input class="form-control" type="email" name="mail" placeholder="Email" required=""></div>
+                        <div class="form-group">
+                            <div class="dropdown"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" id="merchant">Merchant</button>
+                                <div class="dropdown-menu" role="menu" style="width:100%; text-align:center;"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                            </div>
+                        </div>
+                        <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background:#2980EF;">Sign up</button></div>
+                    </form>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <section id="AbSection">
+                        <h1 class="text-center">About us</h1>
+                        <p id="AbText">Nouveau Riche Media Technologies is an Entreprise &amp; Consumer Software and Applications Development Firm. We design and develop value driven technologies for personal and business support, leveraging our knowledge of the Nigerian
+                            and African Market to ensure that we attain the desired outcome for our clients and users respectively.<br></p>
+                    </section>
+                </div>
+                <div class="col-md-6"><img src="assets/img/network.png" id="NetworkIcon" class="img-fluid"></div>
+            </div>
+        </div>
+    </div>
+    <div class="newsletter-subscribe mt-5 mb-5">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Subscribe to our Newsletter</h2>
+                <p class="text-center">Subscribe to our communications to receive special offers and latest news<br></p>
+            </div>
+            <form class="form-inline" method="post">
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+                <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe </button></div>
+            </form>
+        </div>
+    </div>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Pages</h3>
+                        <ul>
+                            <li><a href="#">API doc</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li><a href="#"><strong>Phone:</strong>&nbsp;+234-703-6338-915<br></a></li>
+                            <li><a href="#"><strong>Email:</strong>&nbsp;Info@Nouveaurichemedia.com<br></a></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-linkedin"></i></a></div>
+                </div>
+                <p class="copyright">Nouvouriche Media Technology © 2019</p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
